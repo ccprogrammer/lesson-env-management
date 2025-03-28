@@ -1,0 +1,38 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch Production",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                "-t",
+                "lib/main_prod.dart",
+                "--flavor",
+                "prod"
+            ]
+        },
+        {
+            "name": "Launch Staging",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                "-t",
+                "lib/main_stg.dart",
+                "--flavor",
+                "stg"
+            ]
+        },
+        {
+            "name": "Launch Development",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                "-t",
+                "lib/main_dev.dart",
+                "--flavor",
+                "dev"
+            ]
+        }
+    ]
+}
